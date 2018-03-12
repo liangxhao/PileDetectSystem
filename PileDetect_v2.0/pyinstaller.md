@@ -10,6 +10,6 @@
 打包后将 config、ezdxf、modules三个文件夹拷进去
 
 
-pyinstaller3.3.1可能存在问题，打包完成后需要将PyQT5目录下的platforms拷贝至根目录
+pyinstaller3.3.1可能存在问题，打包完成后需要将PyQt5目录下的platforms拷贝至根目录
 
 
