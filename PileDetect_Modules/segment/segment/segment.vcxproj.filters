@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="SegmentCircle">
+      <UniqueIdentifier>{276ba4bb-317b-45ce-8383-3c1c30424be7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadImageBlock.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockCoords.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleInputFile.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtractCircle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FitSegmentCircle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SegmentCircle\fitCircle.cpp">
+      <Filter>SegmentCircle</Filter>
+    </ClCompile>
+    <ClCompile Include="SegmentCircle\fitCircle_emxAPI.cpp">
+      <Filter>SegmentCircle</Filter>
+    </ClCompile>
+    <ClCompile Include="SegmentCircle\fitCircle_emxutil.cpp">
+      <Filter>SegmentCircle</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ReadImageBlock.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtractCircle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FitSegmentCircle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SegmentCircle\fitCircle.h">
+      <Filter>SegmentCircle</Filter>
+    </ClInclude>
+    <ClInclude Include="SegmentCircle\fitCircle_emxAPI.h">
+      <Filter>SegmentCircle</Filter>
+    </ClInclude>
+    <ClInclude Include="SegmentCircle\fitCircle_emxutil.h">
+      <Filter>SegmentCircle</Filter>
+    </ClInclude>
+    <ClInclude Include="SegmentCircle\fitCircle_types.h">
+      <Filter>SegmentCircle</Filter>
+    </ClInclude>
+    <ClInclude Include="SegmentCircle\libmwbwpackctbb.h">
+      <Filter>SegmentCircle</Filter>
+    </ClInclude>
+    <ClInclude Include="SegmentCircle\libmwbwunpackctbb.h">
+      <Filter>SegmentCircle</Filter>
+    </ClInclude>
+    <ClInclude Include="SegmentCircle\libmwgetnumcores.h">
+      <Filter>SegmentCircle</Filter>
+    </ClInclude>
+    <ClInclude Include="SegmentCircle\libmwgrayto8.h">
+      <Filter>SegmentCircle</Filter>
+    </ClInclude>
+    <ClInclude Include="SegmentCircle\libmwimfilter.h">
+      <Filter>SegmentCircle</Filter>
+    </ClInclude>
+    <ClInclude Include="SegmentCircle\libmwippfilter.h">
+      <Filter>SegmentCircle</Filter>
+    </ClInclude>
+    <ClInclude Include="SegmentCircle\libmwippreconstruct.h">
+      <Filter>SegmentCircle</Filter>
+    </ClInclude>
+    <ClInclude Include="SegmentCircle\libmwmorphop_packed.h">
+      <Filter>SegmentCircle</Filter>
+    </ClInclude>
+    <ClInclude Include="SegmentCircle\libmwtbbhist.h">
+      <Filter>SegmentCircle</Filter>
+    </ClInclude>
+    <ClInclude Include="SegmentCircle\rtwtypes.h">
+      <Filter>SegmentCircle</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockCoords.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleInputFile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
